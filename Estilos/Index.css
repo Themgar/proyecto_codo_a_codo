@@ -1,0 +1,49 @@
+.fondo{
+    background-color: rgb(250, 182, 55);
+
+}
+.logo {
+    margin-top: 40px;
+    margin-left: 50vh;
+    height: 150px;
+    width: 150px;
+}
+nav {
+    min-height: 50vh;    
+    background-image: url(https://images.pexels.com/photos/6400006/pexels-photo-6400006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cabecera{
+    padding-top: 20px;
+    margin: auto;
+    width: fit-content;
+}
+.btn_nav{
+    margin-left: 30px;
+    margin-right: 30px;
+    color:azure;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav_blur{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100vw;
+    min-height: 50vh;
+}
+#carouselExample .carousel-item img {
+    max-height: 300px; /* Tamaño máximo de altura */
+    width: auto; /* Ancho automático para mantener la proporción */
+    margin: auto; /* Centrar la imagen horizontalmente */
+    margin-bottom: 100px;
+    border: solid black;
+}
+.pie{
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+    padding-top: 20px;
+    border: solid rgb(0, 0, 0);
+    width: 1000px;
+}
