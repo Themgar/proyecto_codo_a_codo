@@ -1,49 +1,115 @@
-.fondo{
-    background-color: rgb(250, 182, 55);
-
-}
-.logo {
-    margin-top: 40px;
-    margin-left: 50vh;
-    height: 150px;
-    width: 150px;
-}
-nav {
-    min-height: 50vh;    
-    background-image: url(https://images.pexels.com/photos/6400006/pexels-photo-6400006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.cabecera{
-    padding-top: 20px;
-    margin: auto;
-    width: fit-content;
-}
-.btn_nav{
-    margin-left: 30px;
-    margin-right: 30px;
-    color:azure;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-}
 .nav_blur{
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    margin-top: -95px;
+    background-color: rgb(39, 34, 34);
     width: 100vw;
-    min-height: 50vh;
+    height: 95px;
+    position: fixed;
 }
-#carouselExample .carousel-item img {
-    max-height: 300px; /* Tamaño máximo de altura */
-    width: auto; /* Ancho automático para mantener la proporción */
-    margin: auto; /* Centrar la imagen horizontalmente */
-    margin-bottom: 100px;
-    border: solid black;
+.inicio{
+    position: absolute;
+    width: 100px;
+    display: inline-block;
+    margin-left: 80px;
+    padding: 0 0 0 0;
+    border: none;  
 }
-.pie{
-    color: rgb(0, 0, 0);
-    padding-left: 30px;
+.img_home{
+    height: 94px;
+}
+.btn_busqueda{
+    width: 65px;
+    height: 40px;
+    color:white;
+    background-color: rgb(109, 102, 102);
+    display: inline-block;
+    position:absolute;
+    margin-top: 25px;
+    margin-left:1220px;
+    padding-top: 5px;
+    border: hidden;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.busqueda{
+    min-height: 40px;
+    min-width: 550px;
+    display: inline-block;
+    position:absolute;
+    margin-top: 25px;
+    margin-left:670px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: hidden;
+}
+.about_us{
+    color:azure;
+    display: inline-block;
+    position:absolute;
+    text-decoration: none;
+    margin-top: 32px;
+    margin-left: 1510px;
+}
+.login{
+    color:azure;
+    display: inline-block;
+    position:absolute;
+    text-decoration: none;
+    margin-top: 32px;
+    margin-left: 1710px;
+}
+.espacio_logo{
+    margin-top: 94px;
+    width: 350;
+    height: 1100px;
+    background-color: rgb(77, 69, 69);
+}
+.logo{    
+    margin: 45px 650px 0px;
+    height:300px;
+    width:300px;
+    border-radius: 100px;
+}
+.aside{
+    position: fixed;
+    background-color: #FFFAE8;
+    width: 350px;
+    height: 840px;
+    margin-top:-1100px;
+    margin-left: 1552px;
+}
+.recomendados{
+    background-color: rgb(161, 146, 146);
+    width: 1600px;
+    height: 258px;
+}
+.receta_1{
     padding-top: 20px;
-    border: solid rgb(0, 0, 0);
-    width: 1000px;
+    margin-left: 30px;
+    margin-top: -650px;
+}
+.receta_2{
+    margin-left: 430px;
+    margin-top: -220px;
+}
+.receta_3{
+    margin-left: 830px;
+    margin-top: -220px;
+}
+.receta_4{
+    margin-left: 1230px;
+    margin-top: -220px;
+}
+.footer{
+    margin-top: 200px;
+    background-color: rgb(32, 29, 29);
+    height: 300px;
+}
+.grupo{
+    margin-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.footer_ismael{
+    padding-top: 20px;
+    color: white;
 }
