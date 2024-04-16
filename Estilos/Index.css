@@ -24,7 +24,7 @@
     display: inline-block;
     position:absolute;
     margin-top: 25px;
-    margin-left:1220px;
+    margin-left:1020px;
     padding-top: 5px;
     border: hidden;
     border-end-end-radius: 10px;
@@ -36,10 +36,19 @@
     display: inline-block;
     position:absolute;
     margin-top: 25px;
-    margin-left:670px;
+    margin-left:470px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: hidden;
+}
+.contacto{
+    color:azure;
+    display: inline-block;
+    position:absolute;
+    text-decoration: none;
+    margin-top: 32px;
+    margin-left: 1300px;
+
 }
 .about_us{
     color:azure;
@@ -59,27 +68,21 @@
 }
 .espacio_logo{
     margin-top: 94px;
-    width: 350;
-    height: 1100px;
+    width: 100 vw;
+    min-height: 100vh;
     background-color: rgb(77, 69, 69);
 }
-.logo{    
-    margin: 45px 650px 0px;
+.logo{
+    margin-top: 2.5%;
+    margin-left: 45%;
     height:300px;
     width:300px;
     border-radius: 100px;
 }
-.aside{
-    position: fixed;
-    background-color: #FFFAE8;
-    width: 350px;
-    height: 840px;
-    margin-top:-1100px;
-    margin-left: 1552px;
-}
 .recomendados{
+    margin-top: 10%;
     background-color: rgb(161, 146, 146);
-    width: 1600px;
+    min-width: 100vw;
     height: 258px;
 }
 .receta_1{
