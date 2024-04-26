@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 425px){
     .header{
         position: absolute;
@@ -399,11 +400,11 @@
         background-color: rgba(255, 255, 255, 0.5);
     }
     .footer{
-        position: absolute;
-        margin-top: 2800px;
+        /* position: absolute;
+        margin-top: 2800px; */
         background-color: rgb(32, 29, 29);
         height: 250px;
-        width: 1023px;
+        /* width: 1023px; */
     }
     .grupo{
         margin-top: 20px;
@@ -452,8 +453,9 @@
     .header{
         background-color: #4d4545;
         height: 148px;
-        width: 1440px;
+        width: 100%;
     }
+    
     .busqueda{
         position: absolute;
         border-top-left-radius: 10px;
@@ -524,10 +526,11 @@
         padding: 10px;
         visibility: visible;
     }
+    
     .dulce{
         position: absolute;
         background-size: cover;
-        width: 720px;
+        width: 100%;
         height: 700px;
         background-image:url(../Estilos/imagenes/fondo-dulce.jpg);
     }
@@ -588,7 +591,7 @@
     .pan{
         position: absolute;
         background-size: cover;
-        width: 720px;
+        width: 100%;
         height: 700px;
         margin-top: 700px;
         background-image:url(../Estilos/imagenes/fondo-pan.jpg);
@@ -655,7 +658,7 @@
         margin-top: 1400px;
         background-color: rgb(32, 29, 29);
         height: 250px;
-        width: 1440px;
+        width: 100%;
     }
     .grupo{
         margin-top: 20px;
