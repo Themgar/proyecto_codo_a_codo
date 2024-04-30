@@ -4,6 +4,70 @@
     box-sizing: border-box;
 }
 
+/* Nav Marcos con Flexbox - Estilos */
+.header{
+    width: 100%;
+    background-color: #4d4545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+.img_home{
+    width: 300px;
+    margin-top: 10px;
+}
+.input-container{
+    display: flex;
+
+}
+.busqueda{
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px ;
+    border: none;
+    margin-top: 10px;
+    margin-bottom:10px;
+    height: 30px;
+    width: 170px;
+}
+.btn_busqueda{
+    border-top-right-radius: 10px;
+    border-end-end-radius: 10px ;
+    border: none;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(109, 102, 102);
+    color: white;
+    padding: 4px;
+    
+}
+
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.options{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(109, 102, 102);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    width: max-content;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+   
+}
+
+/* Sección Receta - Estilos */
+
 .section-recetas, .section-mas-recetas{
     background-color: rgb(109, 102, 102);
     width: 100%;
@@ -13,7 +77,6 @@
     
    
 }
-
 
 .content-img{
     background-color: white;
@@ -52,6 +115,40 @@ h2{
     padding-bottom: 4px;
     
 }
+
+/* Footer Marcos con Flexbox - Estilos */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 29, 29);
+    width: 100%;
+}
+.grupo{
+   margin-top: 10px;
+    color: white;
+}git a
+.info-content{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(109, 102, 102) ;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 10px 5px;
+    margin: 20px 30px;
+}
+
+
+
+
+
+
+
+
+/* Media Querys*/
 
 @media screen and (min-width: 768px) {
     .recetas-dulces {

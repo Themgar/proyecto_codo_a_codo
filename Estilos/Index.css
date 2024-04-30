@@ -165,7 +165,7 @@
         color: black;
         background-color: rgba(255, 255, 255, 0.5)
     }
-    .footer{
+    .footer-ft{
         position: absolute;
         margin-top: 1570px;
         background-color: rgb(32, 29, 29);
@@ -399,12 +399,12 @@
         color: black;
         background-color: rgba(255, 255, 255, 0.5);
     }
-    .footer{
-        /* position: absolute;
-        margin-top: 2800px; */
+    .footer-ft{
+        position: absolute;
+        margin-top: 2800px;
         background-color: rgb(32, 29, 29);
         height: 250px;
-        /* width: 1023px; */
+        width: 1023px;
     }
     .grupo{
         margin-top: 20px;
