@@ -12,11 +12,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 200px;
+    height: auto;
 }
 .img_home{
-    width: 300px;
-    margin-top: 10px;
+    width: 100%;
+    
+}
+
+.btn-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
 }
 .input-container{
     display: flex;
@@ -129,28 +137,75 @@ h2{
 .grupo{
    margin-top: 10px;
     color: white;
-}git a
+}
 .info-content{
     width: 250px;
-    height: 100px;
+    height: auto;
     background-color: rgb(109, 102, 102) ;
     border-radius: 10px;
     font-size: 10px;
     color: white;
-    padding: 10px 5px;
+    padding: 20px;
     margin: 20px 30px;
 }
-
-
-
-
-
-
-
 
 /* Media Querys*/
 
 @media screen and (min-width: 768px) {
+    /* MQ Nav */
+
+    .header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       height: auto;
+                 
+    }
+
+    .logo-img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #4d4545;
+    }
+
+   
+    .btn-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+
+    .container-menu{
+       margin-bottom: 0px;
+        
+    }
+
+    .img_home{
+        width: 100%;
+       
+    }
+
+    .busqueda{
+        height: 100%;
+        width: 200%; 
+        padding: 2%;
+    }
+    .btn_busqueda{
+        border-top-right-radius: 10px;
+        border-end-end-radius: 10px ;
+        border: none;
+        margin-top: 10px;
+        height: 30px;
+        background-color: rgb(109, 102, 102);
+        color: white;
+        padding: 4px;
+        
+    }
+    /* MQ Nectas dulces */
+
     .recetas-dulces {
          display: flex;
         flex-direction: row;
@@ -173,16 +228,84 @@ h2{
         
     }
     
-    
+        /* MQ Footer */
+       
+        .footer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .date-student{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap-reverse;
+        }
+
     
 }
 
 @media screen and (min-width: 1080px) {
+ /* MQ Nav */
+ .header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.logo-img{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+  
+}
+
+
+.btn-menu{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.input-container{
+    width: 45%;
+
+}
+
+.btn_busqueda{
+   height: 39px;
+  
+    
+}
+
+.container-menu{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+
+/* MQ recetas dulces */
+
     .content-img {
         flex: 0 0 calc(25% - 30px); 
         max-width: calc(25% - 30px);
         object-fit: cover;
          
+    }
+
+ /* MQ Footer */
+
+    .footer{
+        display: flex;
+        flex-direction: column;
     }
   
     
