@@ -74,6 +74,11 @@
    
 }
 
+.menu-nosotros a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Sección Receta - Estilos */
 
 .section-recetas, .section-mas-recetas{
