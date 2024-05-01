@@ -193,15 +193,6 @@
         padding: 5px 5px;
         margin: -98px 5px auto 215px;
     }
-    .footer_cristian{
-        background-color: rgb(109, 102, 102) ;
-        border-radius: 10px;
-        width: fit-content;
-        font-size: 10px;
-        color: white;
-        padding: 5px 5px;
-        margin: 10px 5px auto 215px;
-    }
     .footer_uliana{
         background-color: rgb(109, 102, 102) ;
         border-radius: 10px;
@@ -209,7 +200,7 @@
         font-size: 10px;
         color: white;
         padding: 5px 5px;
-        margin: -97px 0px 10px 5px;
+        margin: 10px 0px 10px 110px;
     }
 }
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -428,15 +419,6 @@
         padding: 10px 5px;
         margin: -127px 5px auto 265px;
     }
-    .footer_cristian{
-        background-color: rgb(109, 102, 102) ;
-        border-radius: 10px;
-        width: fit-content;
-        font-size: 10px;
-        color: white;
-        padding: 5px 5px;
-        margin: -92px 5px auto 535px;
-    }
     .footer_uliana{
         background-color: rgb(109, 102, 102) ;
         border-radius: 10px;
@@ -444,7 +426,7 @@
         font-size: 10px;
         color: white;
         padding: 5px 5px;
-        margin: -83px auto auto 790px;
+        margin: -90px auto auto 540px;
     }
 }
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -678,16 +660,7 @@
         font-size: 10px;
         color: white;
         padding: 10px 5px;
-        margin: -127px 5px auto 350px;
-    }
-    .footer_cristian{
-        background-color: rgb(109, 102, 102) ;
-        border-radius: 10px;
-        width: fit-content;
-        font-size: 10px;
-        color: white;
-        padding: 5px 5px;
-        margin: -92px 5px auto 720px;
+        margin: -127px 5px auto 300px;
     }
     .footer_uliana{
         background-color: rgb(109, 102, 102) ;
@@ -696,7 +669,7 @@
         font-size: 10px;
         color: white;
         padding: 5px 5px;
-        margin: -83px auto auto 1075px;
+        margin: -90px auto auto 600px;
     }    
 }
 @media screen and (min-width:1441px) {
@@ -932,15 +905,6 @@
         padding: 10px 5px;
         margin: -127px 5px auto 350px;
     }
-    .footer_cristian{
-        background-color: rgb(109, 102, 102) ;
-        border-radius: 10px;
-        width: fit-content;
-        font-size: 10px;
-        color: white;
-        padding: 5px 5px;
-        margin: -92px 5px auto 720px;
-    }
     .footer_uliana{
         background-color: rgb(109, 102, 102) ;
         border-radius: 10px;
@@ -948,6 +912,6 @@
         font-size: 10px;
         color: white;
         padding: 5px 5px;
-        margin: -83px auto auto 1075px;
+        margin: -90px auto auto 735px;
     }  
 }
