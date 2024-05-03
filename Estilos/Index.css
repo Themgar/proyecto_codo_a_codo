@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 425px){
     .header{
         position: absolute;
@@ -53,7 +54,7 @@
         width: 425px;
         height: 350px;
         margin-top: 177px;
-        background-image:url(../Estilos/imagenes/fondo-dulce.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-dulce.jpg);
     }
     .img_dulce{
         position: absolute;
@@ -83,7 +84,7 @@
         margin-top: 525px;
         width: 425px;
         height: 350px;
-        background-image:url(../Estilos/imagenes/fondo-salado.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-salado.jpg);
     }
     .img_salado{
         position: absolute;
@@ -112,7 +113,7 @@
         margin-top: 875px;
         width: 425px;
         height: 350px;
-        background-image:url(../Estilos/imagenes/fondo-pan.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-pan.jpg);
     }
     .img_pan{
         position: absolute;
@@ -141,7 +142,7 @@
         margin-top: 1225px;
         width: 425px;
         height: 350px;
-        background-image:url(../Estilos/imagenes/fondo-entrante.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-entrante.jpg);
     }
     .img_entrante{
         position: absolute;
@@ -202,8 +203,11 @@
         padding: 5px 5px;
         margin: 10px 0px 10px 110px;
     }
+    .contacto{
+        text-decoration: none;
+        color: rgb(19, 145, 255);
+    }
 }
-/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width:426px){
     .header{
         background-color: #4d4545;
@@ -258,7 +262,7 @@
         background-size: cover;
         width: 1023px;
         height: 700px;
-        background-image:url(../Estilos/imagenes/fondo-dulce.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-dulce.jpg);
     }
     .img_dulce{
         position: absolute;
@@ -289,7 +293,7 @@
         margin-top: 700px;
         width: 1023px;
         height: 700px;
-        background-image:url(../Estilos/imagenes/fondo-salado.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-salado.jpg);
     }
     .img_salado{
         position: absolute;
@@ -320,7 +324,7 @@
         margin-top: 1400px;
         width: 1023px;
         height: 700px;
-        background-image:url(../Estilos/imagenes/fondo-pan.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-pan.jpg);
     }
     .img_pan{
         position: absolute;
@@ -363,7 +367,7 @@
         margin-top: 2100px;
         width: 1023px;
         height: 700px;
-        background-image:url(../Estilos/imagenes/fondo-entrante.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-entrante.jpg);
     }
     .img_entrante{
         position: absolute;
@@ -428,14 +432,17 @@
         padding: 5px 5px;
         margin: -90px auto auto 540px;
     }
+    .contacto{
+        text-decoration: none;
+        color: rgb(19, 145, 255);
+    }
 }
-/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width:1024px){
     .header{
         background-color: #4d4545;
         height: 148px;
         width: 1440px;
-    }
+    }  
     .busqueda{
         position: absolute;
         border-top-left-radius: 10px;
@@ -463,9 +470,7 @@
     }
     .menu-contacto{
         position: absolute;
-        text-decoration: none;
         background-color: rgb(109, 102, 102);
-        color: rgb(255, 255, 255);
         font-size: 16px;
         width: max-content;
         height: 50px;
@@ -476,11 +481,13 @@
         padding: 10px;
         visibility: visible;
     }
+    .menu-contacto a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
     .menu-nosotros{
         position: absolute;
-        text-decoration: none;
         background-color: rgb(109, 102, 102);
-        color: rgb(255, 255, 255);
         font-size: 16px;
         width: max-content;
         height: 50px;
@@ -491,11 +498,13 @@
         padding: 10px;
         visibility: visible;
     }
+    .menu-nosotros a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
     .menu-login{
         position: absolute;
-        text-decoration: none;
         background-color: rgb(109, 102, 102);
-        color: rgb(255, 255, 255);
         font-size: 16px;
         width: max-content;
         height: 50px;
@@ -506,12 +515,16 @@
         padding: 10px;
         visibility: visible;
     }
+    .menu-login a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
     .dulce{
         position: absolute;
         background-size: cover;
         width: 720px;
         height: 700px;
-        background-image:url(../Estilos/imagenes/fondo-dulce.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-dulce.jpg);
     }
     .img_dulce{
         position: absolute;
@@ -542,7 +555,7 @@
         margin-left: 720px;
         width: 720px;
         height: 700px;
-        background-image:url(../Estilos/imagenes/fondo-salado.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-salado.jpg);
     }
     .img_salado{
         position: absolute;
@@ -573,7 +586,7 @@
         width: 720px;
         height: 700px;
         margin-top: 700px;
-        background-image:url(../Estilos/imagenes/fondo-pan.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-pan.jpg);
     }
     .img_pan{
         position: absolute;
@@ -606,7 +619,7 @@
         margin-left: 720px;
         width: 720px;
         height: 700px;
-        background-image:url(../Estilos/imagenes/fondo-entrante.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-entrante.jpg);
     }
     .img_entrante{
         position: absolute;
@@ -671,12 +684,16 @@
         padding: 5px 5px;
         margin: -90px auto auto 600px;
     }    
+    .contacto{
+        text-decoration: none;
+        color: rgb(19, 145, 255);
+    }
 }
 @media screen and (min-width:1441px) {
     .header{
         background-color: #4d4545;
         height: 148px;
-        width: 100vw;
+        width: 100%;
     }
     .busqueda{
         position: absolute;
@@ -705,9 +722,7 @@
     }
     .menu-contacto{
         position: absolute;
-        text-decoration: none;
         background-color: rgb(109, 102, 102);
-        color: rgb(255, 255, 255);
         font-size: 16px;
         width: max-content;
         height: 50px;
@@ -718,11 +733,13 @@
         padding: 10px;
         visibility: visible;
     }
+    .menu-nosotros a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
     .menu-nosotros{
         position: absolute;
-        text-decoration: none;
         background-color: rgb(109, 102, 102);
-        color: rgb(255, 255, 255);
         font-size: 16px;
         width: max-content;
         height: 50px;
@@ -733,11 +750,13 @@
         padding: 10px;
         visibility: visible;
     }
+    .menu-nosotros a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
     .menu-login{
         position: absolute;
-        text-decoration: none;
         background-color: rgb(109, 102, 102);
-        color: rgb(255, 255, 255);
         font-size: 16px;
         width: max-content;
         height: 50px;
@@ -748,12 +767,16 @@
         padding: 10px;
         visibility: visible;
     }
+    .menu-login a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
     .dulce{
         position: absolute;
         background-size: cover;
         width: 1000px;
         height: 850px;
-        background-image:url(../Estilos/imagenes/fondo-dulce.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-dulce.jpg);
     }
     .img_dulce{
         position: absolute;
@@ -784,7 +807,7 @@
         margin-left: 960px;
         width: 1000px;
         height: 850px;
-        background-image:url(../Estilos/imagenes/fondo-salado.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-salado.jpg);
     }
     .img_salado{
         position: absolute;
@@ -816,7 +839,7 @@
         width: 960px;
         height: 850px;
         margin-top: 850px;
-        background-image:url(../Estilos/imagenes/fondo-pan.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-pan.jpg);
     }
     .img_pan{
         position: absolute;
@@ -849,7 +872,7 @@
         width: 1000px;
         height: 850px;
         margin-top: 850px;
-        background-image:url(../Estilos/imagenes/fondo-entrante.jpg);
+        background-image:url(../Estilos/imagenes/Index/fondo-entrante.jpg);
     }
     .img_entrante{
         position: absolute;
@@ -914,4 +937,8 @@
         padding: 5px 5px;
         margin: -90px auto auto 735px;
     }  
+    .contacto{
+        text-decoration: none;
+        color: rgb(19, 145, 255);
+    }
 }

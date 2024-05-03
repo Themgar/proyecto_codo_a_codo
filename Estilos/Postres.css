@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Marcos con Flexbox - Estilos */
+.header{
+    width: 100%;
+    background-color: #4d4545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+.img_home{
+    width: 100%;
+    
+}
+
+.btn-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.input-container{
+    display: flex;
+
+}
+.busqueda{
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px ;
+    border: none;
+    margin-top: 10px;
+    margin-bottom:10px;
+    height: 30px;
+    width: 170px;
+}
+.btn_busqueda{
+    border-top-right-radius: 10px;
+    border-end-end-radius: 10px ;
+    border: none;
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(109, 102, 102);
+    color: white;
+    padding: 4px;
+    
+}
+
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.options{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(109, 102, 102);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    width: max-content;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+   
+}
+
+.menu-nosotros a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Sección Receta - Estilos */
+
+.section-recetas, .section-mas-recetas{
+    background-color: rgb(109, 102, 102);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+   
+}
+
+.content-img{
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 10px 10px 33px -20px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 33px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 33px -20px rgba(0, 0, 0, 0.75);
+}
+
+.content-img:hover{
+    box-shadow: 6px 6px 20px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 6px 20px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 6px 20px -1px rgba(0, 0, 0, 0.75);
+}
+
+  
+
+.content-img img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+.nombre-receta{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+h2{
+    font-size: 20px;
+    padding-bottom: 4px;
+    
+}
+
+/* Footer Marcos con Flexbox - Estilos */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 29, 29);
+    width: 100%;
+}
+.grupo{
+   margin-top: 10px;
+    color: white;
+}
+.info-content{
+    width: 250px;
+    height: auto;
+    background-color: rgb(109, 102, 102) ;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 20px;
+    margin: 20px 30px;
+}
+
+/* Media Querys*/
+
+@media screen and (min-width: 768px) {
+    /* MQ Nav */
+
+    .header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       height: auto;
+                 
+    }
+
+    .logo-img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #4d4545;
+    }
+
+   
+    .btn-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+
+    .container-menu{
+       margin-bottom: 0px;
+        
+    }
+
+    .img_home{
+        width: 100%;
+       
+    }
+
+    .busqueda{
+        height: 100%;
+        width: 200%; 
+        padding: 2%;
+    }
+    .btn_busqueda{
+        border-top-right-radius: 10px;
+        border-end-end-radius: 10px ;
+        border: none;
+        margin-top: 10px;
+        height: 30px;
+        background-color: rgb(109, 102, 102);
+        color: white;
+        padding: 4px;
+        
+    }
+    /* MQ Nectas dulces */
+
+    .recetas-dulces {
+         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+      
+    }
+    .recetas-dulces{
+            justify-content: center;
+        
+    }
+    .content-img {
+        flex: 0 0 calc(50% - 30px); 
+        max-width: calc(50% - 30px);
+    }
+    h2{
+        font-size: 24px;
+        
+    }
+    
+        /* MQ Footer */
+       
+        .footer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .date-student{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap-reverse;
+        }
+
+    
+}
+
+@media screen and (min-width: 1080px) {
+ /* MQ Nav */
+ .header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.logo-img{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+  
+}
+
+
+.btn-menu{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.input-container{
+    width: 45%;
+
+}
+
+.btn_busqueda{
+   height: 39px;
+  
+    
+}
+
+.container-menu{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+
+/* MQ recetas dulces */
+
+    .content-img {
+        flex: 0 0 calc(25% - 30px); 
+        max-width: calc(25% - 30px);
+        object-fit: cover;
+         
+    }
+
+ /* MQ Footer */
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    
+}
+
