@@ -154,6 +154,69 @@ h2{
     margin: 20px 30px;
 }
 
+
+
+/* Formulario de Contacto */
+
+
+.form{
+    background-color: rgb(109, 102, 102);
+    padding: 15px;
+       
+}
+
+.form-info{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+   
+}
+
+.date-contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.write{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.image-up{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    margin-bottom: 10px;
+}
+
+.button-send{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+.send-button{
+    width: 40%;
+ 
+}
+
+.send-button:hover{
+    background-color: #4d4545;
+    width: 40%;
+ 
+}
+
+.text-area{
+     margin-bottom: 10px;
+}
+
+input[type="file"] {
+    color: transparent;
+ 
+  }
 /* Media Querys*/
 
 @media screen and (min-width: 768px) {

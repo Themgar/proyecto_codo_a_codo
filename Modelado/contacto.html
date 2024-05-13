@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../Estilos/Postres.css">    
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-img"><a class="inicio" href="../Modelado/index.html"><img class="img_home" src="../Estilos/imagenes/Index/Logo-2.png"></a></div>
+        
+        <div class="btn-menu">
+          <div class="input-container">
+            <input class="busqueda" type="text" placeholder="  ¿Qué estás buscando?">
+            <button class="btn_busqueda" onclick="alert('Disponible proximamente...')"><b>Buscar</b></button>
+          </div>
+    
+          <div class="container-menu">
+            <button class="menu-nosotros options"><a href="#footer">Sobre nosotros</a></button>
+            <button class="menu-contacto options"><a>Contactanos</a></button>
+            <button class="menu-login options"><a>Login</a></button>
+          </div>
+        </div>
+      </div>
+      <section class="form">
+        <form action="" method="POST" enctype="multipart/form-data" class="form-info">
+            <div class="date-contact">
+                <div>
+                    <label for="nombre">Nombre</label>
+                     <input type="text" name="nombre" id="nombre">
+                </div>
+                <div>
+                    <label for="categoria">Categoria</label>
+                    <select name="categoria" id="categoria">
+                         <option value="Entrantes">Entrantes</option>
+                         <option value="Plato fuerte">Plato fuerte</option>
+                         <option value="Dulce">Dulce</option>
+                        <option value="Salado">Salado</option>
+                    </select>
+                </div>
+            </div>
+            <div class="write">
+                <label for="recetas">Recetas</label>
+                <textarea name="recetas" id="recetas" cols="20" rows="5" class="text-area"></textarea>
+            </div>
+            <div class="image-up">
+                <label for="imagen">Cargar Imagen</label>
+                <input type="file" name="imagen" id="imagen">
+            </div>
+            <div class="button-send">
+                <input type="submit" value="Enviar" class="send-button">
+            </div>
+            
+        </form>
+      </section>
+
+
+
+      <div class="footer" id="footer">
+        <h3 class="grupo">Grupo N° 22</h3>
+        <div class="date-student">
+          <div class="footer_ismael info-content">
+            <h6>Molina Marcos</h6>
+            <li>
+              Estudiante de ingenieria <br>en sistemas de información.
+            </li>
+            <li>
+              Programador fullstack en formacíon.
+            </li>
+            <li>
+              Contacto: <a class="contacto" href="mailto:molina.mark.1999@gmail.com">Molina.mark.1999@gmail.com</a>
+            </li>
+          </div>
+          <div class="footer_pamela info-content">
+            <h6>Viale Pamela</h6>
+            <li>
+              Comerciante de insumos y servicios informáticos.<br>
+            </li>
+            <li>
+              Estudiante de programación.
+            </li>
+            <li>
+              Contacto: <a class="contacto" href="mailto:pamelaviale87@gmail.com">Pamelaviale87@gmail.com</a>
+            </li>
+          </div>
+         
+          
+        </div>
+      </div>
+      </div>
+    </section>
+
+</body>
+</html>
