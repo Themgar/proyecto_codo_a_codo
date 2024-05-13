@@ -154,33 +154,41 @@ h2{
     margin: 20px 30px;
 }
 
-
-
 /* Formulario de Contacto */
-
 
 .form{
     background-color: rgb(109, 102, 102);
-    padding: 15px;
+    padding: 10px;
+    color: aliceblue;
+    
+    
+    
        
 }
 
 .form-info{
-    width: 270px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    border: 1px solid aliceblue;;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #4d4545;
+    
    
 }
 
 .date-contact{
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .write{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-bottom: 10px;
     width: 100%;
 }
@@ -189,6 +197,7 @@ h2{
     display: flex;
     justify-content: center; 
     align-items: center;  
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -199,25 +208,32 @@ h2{
     
 }
 .send-button{
-    width: 40%;
+    width: 50%;
+    border-radius: 10px;
  
 }
 
 .send-button:hover{
     background-color: #4d4545;
-    width: 40%;
+    width: 50%;
+    color: aliceblue;
  
 }
 
 .text-area{
      margin-bottom: 10px;
+     
 }
 
 input[type="file"] {
     color: transparent;
  
   }
-/* Media Querys*/
+
+  input, select, textarea, .send-button{
+    border-radius: 5px;
+  }
+
 
 @media screen and (min-width: 768px) {
     /* MQ Nav */
@@ -312,6 +328,26 @@ input[type="file"] {
             flex-wrap: wrap-reverse;
         }
 
+        /* Form Contacto */
+            
+.form{
+    display: flex;
+    justify-content: center;
+}        
+.form-info{
+    width: 55%;
+   
+  
+}
+.label-selection{
+    width: 90%;
+}
+
+.send-button{
+  height: 120%;
+ 
+}
+
     
 }
 
@@ -376,6 +412,71 @@ input[type="file"] {
         flex-direction: column;
     }
   
+    /* Form Contacto */
+            
+ .form{
+        height: 500px; 
+        display: flex;  
+        align-items: center;
+       
+}
+
+.form-info{
+   width: 40%;
+   height: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.date-contact{
+    width: 80%;
+}
+
+
+.category{
+    display: flex;
+    margin-right: 10px;
     
+} 
+
+
+.write{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.image{
+    margin-right: 10px;
+}
+
+
+.button-send{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    
+    
+}
+.send-button{
+    width: 200px;
+    
+ 
+}
+
+.send-button:hover{
+    background-color: #4d4545;
+    width: 200px;
+ 
+}
+
+
+
+
+
 }
 

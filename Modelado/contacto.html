@@ -26,13 +26,13 @@
       <section class="form">
         <form action="" method="POST" enctype="multipart/form-data" class="form-info">
             <div class="date-contact">
-                <div>
+                <div class="input-name">
                     <label for="nombre">Nombre</label>
                      <input type="text" name="nombre" id="nombre">
                 </div>
-                <div>
-                    <label for="categoria">Categoria</label>
-                    <select name="categoria" id="categoria">
+                <div class="category">
+                    <label for="categoria" class="category" >Categoria</label>
+                    <select name="categoria" id="categoria" class="label-selection">
                          <option value="Entrantes">Entrantes</option>
                          <option value="Plato fuerte">Plato fuerte</option>
                          <option value="Dulce">Dulce</option>
@@ -42,10 +42,10 @@
             </div>
             <div class="write">
                 <label for="recetas">Recetas</label>
-                <textarea name="recetas" id="recetas" cols="20" rows="5" class="text-area"></textarea>
+                <textarea name="recetas" id="recetas" cols="21" rows="5" class="text-area"></textarea>
             </div>
             <div class="image-up">
-                <label for="imagen">Cargar Imagen</label>
+                <label for="imagen" class="image">Cargar Imagen</label>
                 <input type="file" name="imagen" id="imagen">
             </div>
             <div class="button-send">
