@@ -1,0 +1,276 @@
+@media screen and (max-width: 425px){
+    .header{
+        position: absolute;
+        background-color: #4d4545;
+        height: 177px;
+    }
+    .img_home{
+        width: 425px;
+    }
+    .busqueda{
+        border-top-left-radius: 10px;
+        border-end-start-radius: 10px ;
+        border: none;
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 30px;
+        width: 270px;
+    }
+    .btn_busqueda{
+        position: absolute;
+        border-top-right-radius: 10px;
+        border-end-end-radius: 10px ;
+        border: none;
+        margin-top: 10px;
+        height: 30px;
+        background-color: rgb(109, 102, 102);
+        color: white;
+    }
+    .dropdown{
+        border-radius: 10px;
+        background-color: rgb(109, 102, 102);
+        height: 30px;
+        width: 45px;
+        margin-left: 360px;
+        margin-top: -30px;
+    }
+    .img-dropdonw{
+        position: relative;
+        margin-left: 7px;
+    }
+    .dropdown-item-login,.dropdown-item-contactanos,.dropdown-item-nosotros{
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+        padding:20px;
+    }    
+    .menu-nosotros, .menu-contacto, .menu-login{
+        visibility: hidden;
+    }
+    .main{
+        position: absolute;
+        top: 25%;
+        left: 10px;
+        right: 10px;
+        background-color:aqua;
+    }
+    .footer{
+        visibility: hidden;
+    }
+}
+@media screen and (min-width:426px){
+    .header{
+            background-color: #4d4545;
+            height: 148px;
+            width: 1023px;
+        }
+    .busqueda{
+            position: absolute;
+            border-top-left-radius: 10px;
+            border-end-start-radius: 10px ;
+            border: none;
+            margin-top: 55px;
+            margin-left: 10px;
+            height: 50px;
+            width: 350px;
+        }
+    .btn_busqueda{
+            position: absolute;
+            border-top-right-radius: 10px;
+            border-end-end-radius: 10px ;
+            border: none;
+            margin-left: 360px;
+            margin-top: 55px;
+            height: 50px;
+            background-color: rgb(109, 102, 102);
+            color: white;
+        }
+    .dropdown{
+            border-radius: 10px;
+            background-color: rgb(109, 102, 102);
+            height: 50px;
+            width: 45px;
+            margin-left: 960px;
+            margin-top: -93px;
+        }
+    .img-dropdonw{
+            position: relative;
+            margin-left: 7px;
+            margin-top: 20px;
+        }
+    .dropdown-item,.dropdown-item,.dropdown-item{
+            text-decoration: none;
+            color: black;
+            font-size: medium;
+            padding:20px;
+        }
+    .menu-nosotros, .menu-contacto, .menu-login{
+            visibility: hidden;
+        }
+}
+@media screen and (min-width:1024px){
+    .header{
+        background-color: #4d4545;
+        height: 148px;
+        width: 1440px;
+        }  
+    .busqueda{
+        position: absolute;
+        border-top-left-radius: 10px;
+        border-end-start-radius: 10px ;
+        border: none;
+        margin-top: 55px;
+        margin-left: 20px;
+        height: 50px;
+        width: 470px;
+        }
+    .btn_busqueda{
+        position: absolute;
+        border-top-right-radius: 10px;
+        border-end-end-radius: 10px ;
+        border: none;
+        margin-left: 490px;
+        margin-top: 55px;
+        height: 50px;
+        width: 70px;
+        background-color: rgb(109, 102, 102);
+        color: white;
+        }
+    .dropdown{
+        visibility: hidden;
+    }
+    .menu-contacto{
+        position: absolute;
+        background-color: rgb(109, 102, 102);
+        font-size: 16px;
+        width: max-content;
+        height: 50px;
+        margin-top: -50px;
+        margin-left: 1080px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        visibility: visible;
+    }
+    .menu-contacto a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .menu-nosotros{
+        position: absolute;
+        background-color: rgb(109, 102, 102);
+        font-size: 16px;
+        width: max-content;
+        height: 50px;
+        margin-top: -50px;
+        margin-left: 1200px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        visibility: visible;
+    }
+    .menu-nosotros a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .menu-login{
+        position: absolute;
+        background-color: rgb(109, 102, 102);
+        font-size: 16px;
+        width: max-content;
+        height: 50px;
+        margin-top: -50px;
+        margin-left: 1340px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        visibility: visible;
+    }
+    .menu-login a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+}
+@media screen and (min-width:1441px){
+    .header{
+        background-color: #4d4545;
+        height: 148px;
+        width: 100%;
+    }
+    .busqueda{
+        position: absolute;
+        border-top-left-radius: 10px;
+        border-end-start-radius: 10px ;
+        border: none;
+        margin-top: 55px;
+        margin-left: 20px;
+        height: 50px;
+        width: 900px;
+    }
+    .btn_busqueda{
+        position: absolute;
+        border-top-right-radius: 10px;
+        border-end-end-radius: 10px ;
+        border: none;
+        margin-left: 920px;
+        margin-top: 55px;
+        height: 50px;
+        width: 70px;
+        background-color: rgb(109, 102, 102);
+        color: white;
+    }
+    .dropdown{
+        visibility: hidden;
+    }
+    .menu-contacto{
+        position: absolute;
+        background-color: rgb(109, 102, 102);
+        font-size: 16px;
+        width: max-content;
+        height: 50px;
+        margin-top: -50px;
+        margin-left: 1540px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        visibility: visible;
+    }
+    .menu-nosotros a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .menu-nosotros{
+        position: absolute;
+        background-color: rgb(109, 102, 102);
+        font-size: 16px;
+        width: max-content;
+        height: 50px;
+        margin-top: -50px;
+        margin-left: 1665px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        visibility: visible;
+    }
+    .menu-nosotros a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .menu-login{
+        position: absolute;
+        background-color: rgb(109, 102, 102);
+        font-size: 16px;
+        width: max-content;
+        height: 50px;
+        margin-top: -50px;
+        margin-left: 1810px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        visibility: visible;
+    }
+    .menu-login a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+}
