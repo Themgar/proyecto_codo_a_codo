@@ -24,19 +24,18 @@
         </div>
       </div>
       <section class="form">
-
         <form action="procesar_formulario.php" method="POST" enctype="multipart/form-data" class="form-info" onsubmit="return validarFormulario()">
             <div class="date-contact">
                 <div class="input-name">
                     <label for="nombre">Nombre</label>
-                     <input type="text" name="nombre" id="nombre">
+                    <input type="text" name="nombre" id="nombre">
                 </div>
                 <div class="category">
-                    <label for="categoria" class="category" >Categoria</label>
+                    <label for="categoria" class="category">Categoria</label>
                     <select name="categoria" id="categoria" class="label-selection">
-                         <option value="Entrantes">Entrantes</option>
-                         <option value="Plato fuerte">Plato fuerte</option>
-                         <option value="Dulce">Dulce</option>
+                        <option value="Entrantes">Entrantes</option>
+                        <option value="Plato fuerte">Plato fuerte</option>
+                        <option value="Dulce">Dulce</option>
                         <option value="Salado">Salado</option>
                     </select>
                 </div>
@@ -49,12 +48,17 @@
                 <label for="imagen" class="image">Cargar Imagen</label>
                 <input type="file" name="imagen" id="imagen">
             </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="terminos" id="terminos">
+                    Acepto los términos y condiciones
+                </label>
+            </div>
             <div class="button-send">
                 <input type="submit" value="Enviar" class="send-button">
             </div>
-            
         </form>
-      </section>
+    </section>
 
 
 
